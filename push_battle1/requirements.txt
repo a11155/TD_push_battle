@@ -1,6 +1,5 @@
 altair==5.4.1
 annotated-types==0.7.0
-attorney @ file:///Users/a11155/Documents/tamu/datathon/attorney-2.0.0-py3-none-any.whl
 attrs==24.2.0
 blessed==1.20.0
 blinker==1.9.0
