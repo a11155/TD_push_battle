@@ -4,6 +4,7 @@ from PushBattle import Game, PLAYER1, PLAYER2, EMPTY, BOARD_SIZE, NUM_PIECES, _t
 # Import This
 # from &lt;AGENT FILENAME&gt; import &lt;AGENT CLASSNAME&gt;
 from random_agent import RandomAgent
+from MCTSAgent import MCTSAgent, FastMCTSAgent
 
 app = Flask(__name__)
 
@@ -33,7 +34,7 @@ def start_game():
 
     ##### MODIFY BELOW #####
 
-    agent = RandomAgent()
+    agent = FastMCTSAgent()
 
     ###################
     
